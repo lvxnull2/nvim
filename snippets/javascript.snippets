@@ -1,0 +1,21 @@
+autosnippet /// doc-comment-inline
+	/** $1 */ $0
+
+autosnippet //? doc-comment
+	/**
+	 * $1
+	 */
+
+autosnippet //T type-comment
+	/** @type {$1} $2 */ $0
+
+snippet #T at-type
+	@type {$1} $0
+
+snippet #R at-return
+	@return {$1} $0
+
+snippet #P at-param
+	@param {$1} $0
+
+# vim: noet sw=0
